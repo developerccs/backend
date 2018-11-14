@@ -1,0 +1,132 @@
+{
+	"id": "caed3d7a-fddc-8f80-7807-cd8f5b9a7436",
+	"name": "Backend",
+	"description": "",
+	"order": [
+		"52cd6e4f-cc89-0af7-29f7-b6d32e6e78fe",
+		"d38a0355-b465-3307-b56e-cadae30f4be8",
+		"74c76be5-0b86-8d97-2473-ab15b26915c7",
+		"73b67b04-8571-d9ae-1107-ff8f1fb3ea2d"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1542211814096,
+	"owner": "5450948",
+	"public": false,
+	"requests": [
+		{
+			"id": "52cd6e4f-cc89-0af7-29f7-b6d32e6e78fe",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8000/api/quote",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1542212131908,
+			"name": "postQuote",
+			"description": "",
+			"collectionId": "caed3d7a-fddc-8f80-7807-cd8f5b9a7436",
+			"responses": [],
+			"rawModeData": "{\n\t\"content\":\"algun contenido\"\n}"
+		},
+		{
+			"id": "73b67b04-8571-d9ae-1107-ff8f1fb3ea2d",
+			"headers": "",
+			"headerData": [
+				{
+					"key": "",
+					"value": "",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "http://localhost:8000/api/quote/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "caed3d7a-fddc-8f80-7807-cd8f5b9a7436",
+			"data": [],
+			"dataMode": "raw",
+			"name": "deleteQuote",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1542212878764,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": ""
+		},
+		{
+			"id": "74c76be5-0b86-8d97-2473-ab15b26915c7",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8000/api/quote/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "caed3d7a-fddc-8f80-7807-cd8f5b9a7436",
+			"data": [],
+			"dataMode": "raw",
+			"name": "putQuote",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1542212749263,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"content\":\"algun contenido modificado\"\n}"
+		},
+		{
+			"id": "d38a0355-b465-3307-b56e-cadae30f4be8",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8000/api/quotes",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "caed3d7a-fddc-8f80-7807-cd8f5b9a7436",
+			"data": null,
+			"dataMode": "params",
+			"name": "getQuotes",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1542212350837,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
